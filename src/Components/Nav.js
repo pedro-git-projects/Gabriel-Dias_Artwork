@@ -15,7 +15,7 @@ const Nav = () => {
       </h1>
       <ul>
         <li>
-          <Link to="/">1. About Me</Link>
+          <Link to="/"> About Me</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -23,7 +23,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/work">2. My Work</Link>
+          <Link to="/work"> My Work</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -31,7 +31,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/contact">3. Contact Me</Link>
+          <Link to="/contact"> Contact Me</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -57,10 +57,17 @@ const StyledNav = styled.nav`
   a {
     color: white;
     text-decoration: none;
+    list-style: none;
+    ul li{
+    list-style: none;
+  }
   }
   ul {
     display: flex;
     list-style-type: none;
+  }
+  ul li{
+    list-style: none;
   }
   #logo {
     font-size: 1.5rem;
@@ -70,6 +77,7 @@ const StyledNav = styled.nav`
   li {
     padding-left: 10rem;
     position: relative;
+    list-style:none;
   }
   @media (max-width: 1300px) {
     flex-direction: column;
@@ -84,6 +92,7 @@ const StyledNav = styled.nav`
       width: 100%;
       li {
         padding: 0;
+        list-style:none;
       }
     }
   }

@@ -49,6 +49,7 @@ button{
     }
     a{
         font-size: 1.1rem;
+        list-style:none;
     }
     span{
         font-weight: bold;
@@ -59,8 +60,6 @@ button{
         color: #ccc;
         font-size: 1.4rem;
         line-height: 150%;
-    }
-
-`;
+    } `;
 
 export default GlobalStyle;
