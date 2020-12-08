@@ -10,8 +10,8 @@ import {
   fade,
   lineAnim,
 } from "../Components/Animations/animation";
-import { useScroll } from "../components/Animations/useScroll";
-import ScrollTop from "../components/Animations/ScrollTop";
+import { useScroll } from "../Components/Animations/useScroll";
+import ScrollTop from "../Components/Animations/ScrollTop";
 //lightbox
 import { SRLWrapper } from "simple-react-lightbox";
 //images

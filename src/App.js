@@ -2,11 +2,11 @@ import React from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import SimpleReactLightbox from "simple-react-lightbox";
-import GlobalStyle from "./components/GlobalStyle";
+import GlobalStyle from "./Components/Styles/GlobalStyle";
 import Landing from "./Pages/Landing";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
-import Nav from "./components/Nav";
+import Nav from "./Components/Nav";
 
 function App() {
   const location = useLocation();

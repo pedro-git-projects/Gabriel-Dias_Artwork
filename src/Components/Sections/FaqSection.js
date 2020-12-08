@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { About } from "../Styles/framerStyle";
-import Toggle from "./Toggle";
+import Toggle from "../../Components/Toggle";
 import { AnimateSharedLayout } from "framer-motion";
 import { useScroll } from "../Animations/useScroll";
 import { scrollReveal } from "../Animations/animation";

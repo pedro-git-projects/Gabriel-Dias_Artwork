@@ -1,11 +1,11 @@
 import React from "react";
-import AboutSection from "../components/AboutSection";
-import ServicesSection from "../components/ServicesSection";
-import FaqSection from "../components/FaqSection";
+import AboutSection from "../Components/Sections/AboutSection";
+import ServicesSection from "../Components/Sections/ServicesSection";
+import FaqSection from "../Components/Sections/FaqSection";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../Components/Animations/animation";
-import ScrollTop from "../components/Animations/ScrollTop";
+import ScrollTop from "../Components/Animations/ScrollTop";
 
 const AboutUs = () => {
   return (
