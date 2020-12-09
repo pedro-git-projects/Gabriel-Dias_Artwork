@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { pageAnimation, titleAnim } from "../Components/Animations/animation";
 import styled from "styled-components";
 import { Button } from "@material-ui/core";
+import ScrollTop from "../Components/Animations/ScrollTop";
 
 const Contact = () => {
   return (
@@ -139,8 +140,10 @@ const Contact = () => {
             </Button>
           </Social>
         </Hide>
+        <ScrollTop />
       </div>
     </ContactStyle>
+   
   );
 };
 
